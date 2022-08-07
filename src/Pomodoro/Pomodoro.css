@@ -1,0 +1,53 @@
+/* Styles for pomodoro timer */
+
+.pomodoro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.timer {
+    font-size: 100px;
+    font-weight: 800;
+    color: #4b60aa;
+}
+
+.start {
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    padding-inline: 45px;
+    background-color: #818cb8;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.start:hover {
+    background-color: #6876af;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.restart {
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    padding-inline: 45px;
+    background-color: transparent;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.restart .fa-refresh {
+    transition: all 0.5s ease;
+}
+
+.restart:hover .fa-refresh {
+    transform: rotate(360deg);
+}
+

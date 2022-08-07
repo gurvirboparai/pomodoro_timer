@@ -1,0 +1,13 @@
+/* Styles for header component */
+
+.inner img {
+    width: 25px;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid #6a6f80;
+}

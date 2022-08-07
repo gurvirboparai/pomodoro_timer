@@ -1,0 +1,41 @@
+/* Styles for navigation */
+
+.timerSection {
+  display: flex;
+  padding-top: 25px;
+  justify-content: center;
+}
+
+.boxStyle {
+  height: 400px;
+  width: 500px;
+  background-color: #a6afce;
+  border-radius: 20px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav li:first-child {
+  margin-inline: 65px;
+}
+
+.nav li {
+    border-radius: 5px;
+    padding-inline: 25px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.nav li:hover {
+    background-color: #979fbb;
+}
+
+.outlet {
+  display: flex;
+  height: 325px;
+  justify-content: center;
+  align-items: center;
+}

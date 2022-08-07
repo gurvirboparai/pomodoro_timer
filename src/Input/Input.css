@@ -1,0 +1,17 @@
+/* Styles for input */
+
+.inputBox {
+  margin-top: 10px;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.inputBox button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #818cb8;
+  cursor: pointer;
+}
